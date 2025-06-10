@@ -6,3 +6,10 @@ wget -O vscode.rpm "https://code.visualstudio.com/sha/download?build=stable&os=l
 
 # Install using yum (it will handle dependencies)
 sudo yum install ./vscode.rpm
+
+Now go to vscode and install python extension
+
+open terminal and create a folder
+then in terminal change directory to the folder you created
+
+pip env install django #this will install django virtual environment
