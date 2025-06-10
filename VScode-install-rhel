@@ -1,0 +1,8 @@
+#Try the Direct RPM Installation Method
+Skip the repository setup and download VS Code directly:
+
+# Download the latest RPM package
+wget -O vscode.rpm "https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-x64"
+
+# Install using yum (it will handle dependencies)
+sudo yum install ./vscode.rpm
